@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 599px) {
+    .container .card{
+        
+        display: flex;
+        flex-direction: column;
+        width: 87% !important;
+    }
+       .container .card .texts {
+        font-size: 29px !important;
+    }
+    .attribution {
+        transform: translateY(-40%);
+        -webkit-transform: translateY(-40%);
+        -moz-transform: translateY(-40%);
+        -ms-transform: translateY(-40%);
+        -o-transform: translateY(-40%);
+}
+    .container .card img {
+        content: url(/image-product-mobile.jpg);
+        width: 100% !important;
+        border-top-right-radius: 10px ;
+        -webkit-border-top-right-radius: 10px ;
+        -moz-border-top-right-radius: 10px ;
+        -ms-border-top-right-radius: 10px ;
+        -o-border-top-right-radius: 10px ;
+        border-bottom-left-radius: 0px;
+}
+.container .card .texts {
+    padding: 30px;
+}
+.container .card .price {
+    margin-bottom: 13px;
+}
+}
+
+@media screen and (min-width: 600px) {
+    .container .card {
+       width: 90% !important;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .container .card {
+       width: 53% !important;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .container .card {
+       width: 39% !important;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .container .card {
+       width: 60% !important;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container .card {
+       width: 43.5% !important;
+    }
+    .container .card .texts h1 {
+        font-size: 36px;
+    }
+}
