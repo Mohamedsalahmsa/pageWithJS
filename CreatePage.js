@@ -10,7 +10,7 @@ card.className = "card";
 
 // create img 
 let img = document.createElement("img");
-img.src = "image-product-desktop.jpg";
+img.src = "./image-product-desktop.jpg";
 img.alt = "logo";
 
 // create div Text
