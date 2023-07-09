@@ -10,7 +10,7 @@ card.className = "card";
 
 // create img 
 let img = document.createElement("img");
-img.src = "/image-product-desktop.jpg";
+img.src = "image-product-desktop.jpg";
 img.alt = "logo";
 
 // create div Text
@@ -66,7 +66,7 @@ btnDiv.className = "btn";
 // create btn in div and content btn
 let btn = document.createElement("button");
 // add content on btn
-btn.innerHTML = `<img src="/icon-cart.svg" alt="Cart-icon"> Add to card`;
+btn.innerHTML = `<img src="icon-cart.svg" alt="Cart-icon"> Add to card`;
 // add all content in div btn
 btnDiv.appendChild(btn);
 // add btn in texts
