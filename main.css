@@ -22,7 +22,7 @@
         -o-transform: translateY(-40%);
 }
     .container .card img {
-        content: url(/image-product-mobile.jpg);
+        content: url(image-product-mobile.jpg);
         width: 100% !important;
         border-top-right-radius: 10px ;
         -webkit-border-top-right-radius: 10px ;
